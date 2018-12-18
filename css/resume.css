@@ -47,6 +47,12 @@ p.lead {
   font-weight: 400;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 .description {
   text-transform: uppercase;
   font-weight: 500;
@@ -101,6 +107,13 @@ p.lead {
 }
 
 @media (min-width: 992px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+  }
+
   #sideNav {
     text-align: center;
     position: fixed;
